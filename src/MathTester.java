@@ -2,6 +2,14 @@ public class MathTester {
     public static void main (String args[]){
         String firstWord, secondWord;
         int firstNumber, secondNumber, total;
+        float m,kg,bmi;
+
+        kg = (float) 51.25;
+        m = (float) 1.65;
+
+        bmi = (kg/(m*m));
+
+        System.out.println(bmi);
 
 
 
